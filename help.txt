@@ -1,0 +1,15 @@
+show: Muestra todos los Contadores
+    Ejemplo: $show
+
+add: Permite agregar nuevos Contadores
+    Parametros: $add <Nombre del comando> <Mensaje de salida> <Contador>
+    Ejemplo: $add margonqlo "Margon ha sido Qlo un total de {} veces" 0
+    Nota: las {} sirven para mostrar el numero contador
+
+ralph: Ejecuta los Contadores
+    Parametros: $ralph <Nombre del comando>
+    Ejemplo: $ralph margonqlo
+
+delete: Elimina un Contador especifico
+    Parametros: $delete <Nombre del comando>
+    Ejemplo: $delete margonqlo
